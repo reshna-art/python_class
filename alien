@@ -1,0 +1,9 @@
+alien_message = "neila na ma I .uoy era woh namuh ih"
+
+human_message = alien_message[::-1]
+
+print(f"""
+Alein message = {alien_message}
+  
+Now, Human message = {human_message}
+""")

@@ -1,15 +1,21 @@
-yfamily = {
-  "child1" : {
-    "name" : "Emil",
-    "year" : 2004
-  },
-  "child2" : {
-    "name" : "Tobias",
-    "year" : 2007
-  },
-  "child3" : {
-    "name" : "Linus",
-    "year" : 2011
-  }
-}
-print(myfamily["child2"]["name"])
+### commands
+
+git init . #git initialize, start folder to track,.is current folder
+
+
+git status #check git status
+
+
+git config --global user.email "miabella3572@gmail.com"
+
+git config --global user.name "Reshna"
+
+
+
+git commit -m "any messages" # committing area, -m is mesaage
+
+git remote add origin https://github.com/reshna-art/python_class.git
+
+git push origin master # code push to git
+
+git add .  #staging area, . is all files

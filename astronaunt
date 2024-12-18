@@ -1,0 +1,27 @@
+def setup_mission():
+  print("Setting up for the mission....")
+  available_foods = [
+    "pizza",
+    "sushi",
+    "carrot cake",
+    "cannoli",
+    "ice cream",
+    "hot dog",
+    "sandwich",
+  ]
+  available_crews = int(input("Enter available crews: "))
+  print("Setup completed")
+  return available_crews, available_foods
+
+def alien_attack_game():
+  print("Welcome to Alien Attack Game")
+  print("Starting mission.......")
+
+  crew_number, foods = setup_mission()
+  print(f"You have{crew_number} astronaunts and food available = {foods}")
+
+
+  print("WELCOME TO THE MARS!!!!")
+
+  print("Your battery is dead please change the battery")
+  
